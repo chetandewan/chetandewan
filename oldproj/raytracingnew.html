@@ -1,0 +1,97 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+
+
+  <meta http-equiv="content-type" content="text/html; charset=ISO-8859-1"><title>raytracing-povray</title></head><body>
+<div style="text-align: center; color: rgb(0, 0, 102);">
+<h2>Ray Tracing Assignment </h2>
+</div>
+<br>
+The aim of the assignment was to generate interesting images using
+POVRAY - Persistence of Vision Raytracer .So,
+it entailed studying and implementing various features of POV-Ray. The
+features used in the images are:-<br>
+<ol>
+  <li>Using the .ini method</li>
+  <li>Placing camera/ Multiple cameras were also tried<br>
+  </li>
+  <li>heading, pitch , roll and FOV for Objects</li>
+  <li>Light sources</li>
+  <li>Various texture options</li>
+  <li>Internal animation<br>
+  </li>
+  <li>Using mesh data</li>
+	<li>Format conversion using existing 3D models</li>
+</ol>
+The emphasis has been on the lighting effects in the picture. Animation
+has been used extensively to generate different frames of the image.
+These frames have been integrated into an <a href="file:///raytracingnew_files/cd.gif">animated
+GIF file using</a><a href="file:///raytracingnew_files/air.htm">ULEAD GIF ANIMATOR </a>on Linux Platform. First, let us have a look at
+the still images obtained by the program. The following image(without the clock 
+object) has been rendered&nbsp; (No animation).<br>
+<br>
+<div style="text-align: center;">
+<br>
+</div>
+<div style="text-align: center;">
+	<img src="raytracingnew_files/prowler_POV_scene0.jpg" border="0" height="384" width="512"><br>
+</div>
+<br>
+<div style="text-align: left;">As can be seen later, changing just one
+parameter in the fov OF&nbsp; .pov file, we can get significant change in the 
+	background. <br>
+<br>
+<div style="text-align: center;">
+<div style="text-align: center;">
+	<img src="raytracingnew_files/prowler_POV_scene1.jpg" border="0" height="384" width="512"><br>
+</div>
+<br>
+<div style="text-align: left;">A simple animation is created using the
+"clock" variable. The PLANE zooms past the screen as the animation advances. The 
+	water is also animated A 3D model was used to generate this image some more 
+	on how it was done is appended below<p>1.I used the Open flight API&#8217;s and 
+	Multigen creators capabilities to convert the Prowler.flt to Prowler.dxf 
+	format. After that I used a freeware converter toolkit called Poseray 
+	Moraywin to convert this into a Povray mesh. The geometry, texture and 
+	material include files were created which were include in an .ini file. This 
+	file was included in a base file for Povray.<br>
+	2. I then added various include files as required. I then initialised the 
+	light source by trial and error at a sufficient distance. I wanted it to act 
+	like a sunlight but since the effect was not too good changed the values 
+	later to suit the scene. I used the sky.inc file from samples included. I 
+	then defined the ocean using chrome texture and glass texture. I then used 
+	poserays self generated camera and light source attached with camera to 
+	modify my scene. The geometry file was included to produce the airplane.<br>
+	3. Lots of sample images included.Lots of permutations and combinations 
+	tried including animation with clockmod.inc.</p>
+	<p>Finally a link to <a href="file:///C:/Documents%20and%20Settings/cd/Desktop/ASSIGN/air.htm">animation page</a></p></div>
+&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp; <br>
+</div>
+</div>
+Resources used:<br>
+There is a lot of material available on the web. However, the best
+place to go to learn POV-Ray from scratch would be <a href="http://www.povray.org/documentation/">http://www.povray.org/documentation/</a>.
+There are many other websites which display amazing creations. Some of
+them are mentioned below.<br>
+<ol>
+  <li><a href="http://www.scorbett.ca/projects/tutorials/povray/">Creating<b>simple</b>
+3D animations in <b>POVRay</b></a></li>
+  <li><a href="http://www.ulead.com.tw/">http://www.ulead.com.tw</a></li>
+  <li><a href="http://www.metlin.org/graphics/ray/">http://www.metlin.org/graphics/ray/</a></li>
+</ol>
+Other image files&nbsp; from the assignment are included<br>
+<ol>
+  <li>Another GIF image showing some more shades&nbsp;</li>
+  <li>My first attempt at generating an interesting image using povray (<a href="file:///C:/Documents%20and%20Settings/cd/Desktop/first.pov">first.pov</a>)</li>
+  <li>More models included in first.pov (<a href="file:///C:/Documents%20and%20Settings/cd/Desktop/first1.pov">first1.pov</a>)<br>
+  </li>
+</ol>
+<div style="text-align: center;">
+	<img src="raytracingnew_files/prowler_POV_scene1.jpg" border="0" height="94" width="120"><img src="raytracingnew_files/prowler_POV_scene2.jpg" border="0" height="93" width="128"><img src="raytracingnew_files/prowler_POV_scene3.jpg" border="0" height="92" width="121"><img src="raytracingnew_files/prowler_POV_scene4.jpg" border="0" height="91" width="119"><img src="raytracingnew_files/arches1.jpg" border="0" height="92" width="118"><br>
+<a href="http://www.cse.iitb.ac.in/%chetandewan/first1.png"></a><a href="http://www.cse.iitb.ac.in/%chetandewan/">HOME</a><br>
+</div>
+
+</body></html>
